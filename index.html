@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food store</title>
+    <!--NORMAL CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Tailwind CSS-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   
+
+    <!--Hero Section Starting-->
+    <section class="py-10 bg-hero">
+      <div class="2xl:container mx-auto h-[100%]">
+        <div class="w-[90%] mx-auto grid grid-cols-1 h-[100%]">
+          <div class="flex flex-col justify-center items-center h-[100%] gap-5">
+            <p class="font-[Roboto] text-[45px] leading-[54px] text-white">Get Delicious Food Anytime</p>
+            <p class="font-[Roboto] text-[24px] leading-[36px] text-[#F5F7FA]">Eat Smart & Healthy</p>
+           <div class="flex flex-row justify-center gap-3">
+            <button class="p-3 px-6 bg-[#CBAE00] rounded-xl text-white font-normal">View Menu</button>
+            <button class="p-3 px-6  rounded-xl text-[#D0B21E] bg-transparent border border-[#C4A700] font-normal">Order Now</button>
+           </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+    <!--Hero Section Ending-->
+
+    <!--Why Choose Us Starting-->
+    <section class="py-10 bg-[#F9FBFE]">
+      <div class="2xl:container mx-auto">
+        <div class="w-[90%] mx-auto grid grid-cols-1">
+          <div class="py-5">
+            <p class="font-[Roboto] font-bold text-[28px] leading-[34px] text-[#183B56]">Why Choose Us?</p>
+            <p class="font-[Roboto] text-[16px] leading-[24px] text-[#5A71A2]">We use both original recipes and classic versions of famous food items.</p>
+          </div>
+        </div>
+        <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="border border-[#E5EAF4] bg-[#FFFFFF] flex flex-col justify-center items-center p-5 gap-3 text-center rounded-xl">
+              <img src="https://ik.imagekit.io/Mylab/food-serve.png?updatedAt=1734872256889" alt="food-serve-img" class="h-24 w-24">
+              <p class="font-[Roboto] text-[22px] leading-[26px] text-[#323F72]">Food Service</p>
+              <p class="font-[Roboto] text-[16px] leading-[24px] text-[#7B87A1]">Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
+            </div>
+            <div class="border border-[#E5EAF4] bg-[#FFFFFF] flex flex-col justify-center items-center p-5 gap-3 text-center rounded-xl">
+              <img src="https://ik.imagekit.io/Mylab/fruits-img.png?updatedAt=1734872258720" alt="fruits-img" class="h-24 w-24">
+              <p class="font-[Roboto] text-[22px] leading-[26px] text-[#323F72]">Fresh Food</p>
+              <p class="font-[Roboto] text-[16px] leading-[24px] text-[#7B87A1]">The Fresh Food group provides fresh-cut fruits and vegetables directly picked from our partner farms and farm houses so that you always get them tree to plate.</p>
+            </div>
+            <div class="border border-[#E5EAF4] bg-[#FFFFFF] flex flex-col justify-center items-center p-5 gap-3 text-center rounded-xl">
+              <img src="https://ik.imagekit.io/Mylab/offers-img.png?updatedAt=1734872257758" alt="offers-img" class="h-20 w-20">
+              <p class="font-[Roboto] text-[22px] leading-[26px] text-[#323F72]">Best Offers</p>
+              <p class="font-[Roboto] text-[16px] leading-[24px] text-[#7B87A1]">Food Coupons & Offers upto 50% OFF and Exclusive Promo Codes on All Online Food Orders.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!--Why Choose Us Ending-->
+
+    <!--Explore card Starting-->
+    <section class="py-10">
+      <div class="2xl:container mx-auto">
+        <div class="w-[90%] mx-auto grid grid-cols-1">
+          <p class="font-[Roboto] font-bold text-[28px] leading-[34px] text-[#183B56]">Explore Menu</p>
+        </div>
+        <div
+          class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4" >
+          <div class="bg-white shadow-lg p-5 space-y-2 rounded-lg">
+            <div class="flex flex-row justify-center">
+              <img src="https://ik.imagekit.io/Mylab/em-ginger-fried-img.png?updatedAt=1734872535898" alt="Non-Veg Starters" class="h-50 rounded-2xl" />
+            </div>
+            <p class="font-[Roboto] text-[18px] leading-[22px] text-[#323F72]">
+              Non-Veg Starters
+            </p>
+            <div class="flex flex-row items-center gap-1 text-[#E4C200]">
+              <button class="text-[14px] leading-[21px]">view All</button>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+                {...props}
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="bg-white shadow-lg p-5 space-y-2 rounded-lg">
+            <div class="flex flex-row justify-center">
+              <img src="https://ik.imagekit.io/Mylab/em-veg-starters-img.png?updatedAt=1735459755878" alt="veg-starters-img" class="h-50 rounded-2xl" />
+            </div>
+            <p class="font-[Roboto] text-[18px] leading-[22px] text-[#323F72]">
+              Veg Starters
+            </p>
+            <div class="flex flex-row items-center gap-1 text-[#E4C200]">
+              <button class="text-[14px] leading-[21px]">view All</button>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+                {...props}
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="bg-white shadow-lg p-5 space-y-2 rounded-lg">
+            <div class="flex flex-row justify-center">
+              <img src="https://ik.imagekit.io/Mylab/em-soup-img.png?updatedAt=1734872529436" alt="soup-img" class="h-50 rounded-2xl" />
+            </div>
+            <p class="font-[Roboto] text-[18px] leading-[22px] text-[#323F72]">
+                Soups
+            </p>
+            <div class="flex flex-row items-center gap-1 text-[#E4C200]">
+              <button class="text-[14px] leading-[21px]">view All</button>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+                {...props}
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="bg-white shadow-lg p-5 space-y-2 rounded-lg">
+            <div class="flex flex-row justify-center">
+              <img src="https://ik.imagekit.io/Mylab/em-grilled-seafood-img.png?updatedAt=1734872533960" alt="seafood-img" class="h-50 rounded-2xl" />
+            </div>
+            <p class="font-[Roboto] text-[18px] leading-[22px] text-[#323F72]">
+                Fish & Sea food
+            </p>
+            <div class="flex flex-row items-center gap-1 text-[#E4C200]">
+              <button class="text-[14px] leading-[21px]">view All</button>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+                {...props}
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="bg-white shadow-lg p-5 space-y-2 rounded-lg">
+            <div class="flex flex-row justify-center">
+              <img src="https://ik.imagekit.io/Mylab/em-hyderabadi-biryani-img.png?updatedAt=1734872533318" alt="Main Course-img" class="h-50 rounded-2xl" />
+            </div>
+            <p class="font-[Roboto] text-[18px] leading-[22px] text-[#323F72]">
+                Main Course
+            </p>
+            <div class="flex flex-row items-center gap-1 text-[#E4C200]">
+              <button class="text-[14px] leading-[21px]">view All</button>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+                {...props}
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="bg-white shadow-lg p-5 space-y-2 rounded-lg">
+            <div class="flex flex-row justify-center">
+              <img src="https://ik.imagekit.io/Mylab/em-mushroom-noodles-img.png?updatedAt=1734872532209" alt="Noodles-img" class="h-50 rounded-2xl" />
+            </div>
+            <p class="font-[Roboto] text-[18px] leading-[22px] text-[#323F72]">
+                Noodles
+            </p>
+            <div class="flex flex-row items-center gap-1 text-[#E4C200]">
+              <button class="text-[14px] leading-[21px]">view All</button>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+                {...props}
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="bg-white shadow-lg p-5 space-y-2 rounded-lg">
+            <div class="flex flex-row justify-center">
+              <img src="https://ik.imagekit.io/Mylab/em-gluten-img.png?updatedAt=1734872531361" alt="Salads-img" class="h-50 rounded-2xl" />
+            </div>
+            <p class="font-[Roboto] text-[18px] leading-[22px] text-[#323F72]">
+                Salads
+            </p>
+            <div class="flex flex-row items-center gap-1 text-[#E4C200]">
+              <button class="text-[14px] leading-[21px]">view All</button>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+                {...props}
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="bg-white shadow-lg p-5 space-y-2 rounded-lg">
+            <div class="flex flex-row justify-center">
+              <img src="https://ik.imagekit.io/Mylab/em-coffee-bourbon-img.png?updatedAt=1734872528540" alt="Desserts-img" class="h-50 rounded-2xl" />
+            </div>
+            <p class="font-[Roboto] text-[18px] leading-[22px] text-[#323F72]">
+                Desserts </p>
+            <div class="flex flex-row items-center gap-1 text-[#E4C200]">
+              <button class="text-[14px] leading-[21px]">view All</button>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+                {...props}
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!--Explore card Ending-->
+
+      <!--Health Section Stating-->
+      <section class="py-10">
+        <div class="2xl:container mx-auto">
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 bg-[#F9FBFE] space-y-10">
+            <div class="flex flex-row justify-center">
+              <img src="https://ik.imagekit.io/Mylab/healthy-food-plate-img.png?updatedAt=1734872528686" alt="healthy-food-plate-img" class="h-15 w-15"></div>
+              <div class="space-y-4">
+              <p class="font-[Roboto] font-bold text-[#183B56] text-[28px] leading-[34px]">Fresh, Healthy, Organic, Delicious Fruits</p>
+              <p class="font-[Roboto] text-[16px] leading-[24px] text-[#637193]">Say no to harmful chemicals and go fully organic with our range of fresh fruits and veggies. Pamper your body and your senses with the true and unadulterated gifts from mother nature. with the true and unadulterated gifts from mother nature.</p>
+              <button class="bg-[#C4A700] text-white text-[16px] leading-[24px] p-2 px-4 rounded-lg">Watch Video</button>
+              </div>
+            </div>
+        </div>    
+      </section>        
+      <!--Health Section Ending-->
+
+      <!--Payment Section Stating-->
+      <section class="py-10">
+        <div class="2xl:container mx-auto">
+          <div class="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 bg-[#F9FBFE] space-y-10">
+              <div class="order-2 md:order-1 space-y-4">
+              <p class="font-[Roboto] font-bold text-[28px] leading-[34px] text-[#183B56]">Delivery and Payment</p>
+              <p class="font-[Roboto] text-[16px] leading-[24px] text-[#5A71A2]">Enjoy hassle-free payment with the plenitude of payment options available for you. Get live tracking and locate your food on a live map. It's quite a sight to see your food arrive to your door. Plus, you get a 5% discount on every order every time you pay online.</p>
+              <button class="bg-[#C4A700] text-white text-[16px] leading-[24px]  p-2 px-4 rounded-lg">Order Now</button>
+              <div class="flex flex-row gap-5">
+                <img src="https://ik.imagekit.io/Mylab/visa-card-img.png?updatedAt=1735460077064" alt="visa-card" class="h-12">
+                <img src="https://ik.imagekit.io/Mylab/master-card-img.png?updatedAt=1734872536202" alt="master-card" class="h-12">
+                <img src="https://ik.imagekit.io/Mylab/american-express-img.png?updatedAt=1734872537126" alt="american-express" class="h-10">
+              </div>
+              </div>
+              <div class="flex flex-row justify-center items-center order-1 md:order-2">
+                <img src="https://ik.imagekit.io/Mylab/delivery-payment-section-img.png?updatedAt=1734872535245" alt="Discount-img" class="h-48">
+              </div>
+            </div>
+          </div>
+      </section>
+      <!--Payment Section Ending-->
+
+      <!--Gift Section Starting-->
+      <section class="py-10 bg-[#FCECAD]">
+        <div class="2xl:container mx-auto">
+          <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 py-5">
+            <div class="space-y-4">
+              <p class="font-[Roboto] font-bold text-[#183B56] text-[28px] leading-[34px]">Thank you for being a valuable customer to us.</p>
+              <p class="font-[Roboto] text-[16px] text-[#7D7184] leading-[24px]">We have a surprise gift for you</p>
+              <img src="https://ik.imagekit.io/Mylab/thanking-customers-section-img.png?updatedAt=1734872538468" alt="gift-img" class="h-48 md:hidden">
+              <button class="bg-[#C4A700] text-white text-[16px] leading-[24px]  p-2 px-4 rounded-lg ">Redeem Gift</button>
+            </div>
+            <div class="flex row justify-center items-center">
+              <img src="https://ik.imagekit.io/Mylab/thanking-customers-section-img.png?updatedAt=1734872538468" alt="gift-img" class="h-48 hidden md:block">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Gift Section Ending-->
+
+      <!-- Follow us Section Starting-->
+      <section class="py-10">
+        <div class="2xl:container mx-auto">
+          <div class="w-[90%] mx-auto grid grid-cols-1">
+           <div class="space-y-4">
+            <div class="flex flex-row justify-center">
+              <p class="font-[Roboto] font-bold text-[28px] leading-[34px] text-[#183B56]">Follow Us</p>
+              </div>
+              <div class="flex flex-row justify-center gap-8">  
+              <div  class="bg-[#FAF7E8] h-[85px] w-[85px] rounded-full"></div>  
+              <div  class="bg-[#FAF7E8] h-[85px] w-[85px] rounded-full"></div>  
+              <div  class="bg-[#FAF7E8] h-[85px] w-[85px] rounded-full"></div>  
+              </div>
+           </div>
+            </div>
+          </div>
+      </section>
+      <!-- Follow us Section Endind-->
+
+      <!--Footer Section Stating-->
+      <section class="py-16 bg-[#0D2436] space-y-3">
+        <div class="2xl:container mx-auto">
+          <div class="w-[90%] mx-auto grid grid-cols-1">
+            <div  class="flex flex-col justify-center items-center  space-y-3">
+              <img src="https://ik.imagekit.io/Mylab/food-munch-img.png?updatedAt=1734872144673" alt="logo-img" class="h-16">
+              <p class="font-[Roboto] text-[16x] leading-[19px] text-[#929BAB]">orderfood@foodmunch.com</p>
+              <p class="font-[Roboto] text-[14px] leading-[21px] text-[#8993A2]">123 Ayur Vigyan Nagar, New Delhi, India.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Footer Section Ending-->
+
+  </body>
+</html>
